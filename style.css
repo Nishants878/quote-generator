@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 450px;
+    height: 550px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #70C2DF;
+}
+#inner-div{
+    width: 300px;
+    height: 400px;
+    padding: 10px 20px;
+    border: 8px solid #B1C8C2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#btn{
+        position: relative;
+        top: 58px;
+        right: 5px;
+        left: 64px;
+}
+p{
+    width: 200px;
+    padding: 50px 25px;
+    margin: 80px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
